@@ -7,43 +7,43 @@ In my organization, we control access to restricted content using a list of appr
 
 ## 📂 Open the file that contains the allow list  
 For the first part of the algorithm, I opened the allow_list.txt file. First, I assigned this file name as a string to the import_file variable:  
-**Screenshot1**  
+![Screenshot1](https://i.imgur.com/aGQ6CID.png)
 
 Then, I used a with statement to open the file:  
-**Screenshot2**
+![Screenshot2](https://i.imgur.com/0WEZvt2.png)
 
 ---
 
 ## 📖 Read the file contents  
 In order to read the file contents, I used the .read() method to convert it into a string.  
-**Screenshot3**
+![Screenshot3](https://i.imgur.com/WQWY4v1.png)
 
 ---
 
 ## 🔁 Convert the string into a list  
 In order to remove individual IP addresses from the allow list, I needed it to be in list format. Therefore, I next used the .split() method to convert the ip_addresses_string into a list:  
-**Screenshot4**
+![Screenshot4](https://i.imgur.com/AMbRjwi.png)
 
 ---
 
 ## 🔍 Iterate through the remove list  
 A key part of my algorithm involves iterating through the IP addresses that are elements in the remove_list. To do this, I incorporated a for loop:  
-**Screenshot5**
+![Screenshot5](https://i.imgur.com/n2BW7hf.png)
 
 ---
 
 ## 🧹 Remove IP addresses that are on the remove list  
 My algorithm requires removing any IP address from the allow list, ip_addresses, that is also contained in remove_list.  Because there were not any duplicates in ip_addresses, I was able to use the following code to do this:  
-**Screenshot6**
+![Screenshot6](https://i.imgur.com/b2p6Bvu.png)
 
 ---
 
 ## 💾 Update the file with the revised list of IP addresses  
 As a final step in my algorithm, I needed to update the allow list file with the revised list of IP addresses. To do so, I first needed to convert the list back into a string. I used the .join() method for this:  
-**Screenshot7**
+![Screenshot7](https://i.imgur.com/SxEB1el.png)
 
 Then, I used another with statement and the .write() method to update the file:  
-**Screenshot8**
+![Screenshot8](https://i.imgur.com/FteS8sQ.png)
 
 ---
 
