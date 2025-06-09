@@ -56,3 +56,7 @@ I created an algorithm that removes IP addresses identified in a remove_list var
 • Removing matches from the list  
 • Converting the list back into a string using .join()  
 • Writing the updated content back to the file
+
+## ⚠️ Disclaimer
+
+**This is a hands-on lab from the Google Cybersecurity Professional Certificate. It is hypothetical and created for training purposes only.**
